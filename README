@@ -1,0 +1,16 @@
+A simple way to manage sets of shell aliases and mods
+http://github.com/lsd/shwagger
+
+#### USAGE
+Add or remove 'sets' from your Shwagfile.
+Make sure they exist with read permission in sets/ dir
+
+Save the file and source reload.sh
+$ sh ./reload.sh
+
+or open a new shell instance and the
+Shwagfile will be reflected automatically.
+
+#### NOTES
+This was tested on OS X 10.7+ and Ubuntu 12.04 LTS
+with bash on both OSes.
